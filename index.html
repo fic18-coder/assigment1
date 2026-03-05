@@ -1,48 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html land="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Fred Cohen"/>
     <meta name="description" content="An informational webpage about actor, wrestler, football player, businessman Dwayne “The Rock” Johnson and his career."/>
     <meta name="keywords" content="Dwayne Johnson, The Rock, WWE, Actor, Fast and Furious, Moana"/>
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!--My CSS File-->
+    <link rel="stylesheet" href="CSS/style.css">
+
     <title>Miami's Legend: Dwayne Johnson</title>
 </head>
 <body>
     <!-- This webpage highlights the life and career of Dwayne "The Rock" Johnson -->
-
-    <header>
+     <header id="top" class="card"> 
         <h1>The Life and Career of Dwayne Johnson</h1>
+
+        <!--Navigation Added-->
+        <nav>
+            <a href="#early-life">Early Life</a>
+            <a href="#rise">Rise to Fame</a>
+            <a href="#films">Film Highlights</a>
+            <a href="#ventures">Ventures</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#author">Author</a>
+        </nav>
         <p>Dwayne Johnson, also known as <strong>“The Rock”</strong>, is an actor, professional wrestler, retired college
         football player, and businessman born in 1972 in California. He is primarily known for
         dominating the WWE scene and becoming one of their most popular stars, then successfully
         transitioning into becoming a <em>Hollywood</em> actor.</p>
-    </header>
-
-    <main>
-        <section>
+     </header>
+     <main>
+        <section id="early-life" class="card">
             <h2>Early Life and Career</h2>
             <p>Dwayne Johnson grew up moving around the world due to his father being a professional wrestler.
-            He played college football at 
-            <a href="https://miamihurricanes.com/" target="_blank" rel="noopener">the University of Miami</a> 
-            and was a part of the 1991 national championship winning team. After not being good enough 
+            He played college football at <a href="https://miamihurricanes.com/" target="_blank" rel="noopener">The University of Miami </a> and was a part of the 1991 national championship winning team. After not being good enough 
             to play professional football, Johnson followed the family legacy and joined the WWF 
             (now known as <abbr title="World Wrestling Entertainment">WWE</abbr>), where he rose to fame as “The Rock”.</p>
         </section>
 
-        <section>
+        <section id="rise" class="card">
             <h2>Dwayne Johnson Rise to Fame</h2>
             <p>After becoming possibly the most popular star in WWE history, Dwayne Johnson transitioned into
             acting in the early 2000s. He gained widespread recognition through his action movies
             and comedy films, making him one of the highest paid actors in the world. In addition
             to acting, Johnson is a producer, entrepreneur, and motivational public figure. Learn more on his 
-            <a href="https://www.imdb.com/name/nm0425005/" target="_blank" rel="noopener">IMDb page</a>.</p>
+            <a href="https://www.imdb.com/name/nm0425005/" targer="_blank" rel="noopener">IMDb page</a>. </p>
         </section>
 
-        <section>
-            <h3>Film Highlights</h3>
-            <ol>
-                <li>The Scorpion King (2002)</li>
+        <section id="films" class="card">
+            <h3>film highlights</h3>
+            <ol><li>The Scorpion King (2002)</li>
                 <li>Walking Tall (2004)</li>
                 <li>Fast Five (2011)</li>
                 <li>Pain &amp; Gain (2013)</li>
@@ -50,35 +63,38 @@
                 <li>Moana (2016)</li>
                 <li>Jumanji: Welcome to the Jungle (2017)</li>
                 <li>Rampage (2018)</li>
-                <li>Black Adam (2022)</li>
-            </ol>
+                <li>Black Adam (2022)</li></ol>
         </section>
 
-        <section>
+        <section id="ventures" class="card">
             <h3>Highlights &amp; Ventures</h3>
             <ul>
                 <li>WWE Championships</li>
                 <li>Fast &amp; Furious Franchise</li>
                 <li>Social Media Motivation</li>
                 <li>Teremana Tequila</li>
-            </ul>
+            </ul>    
         </section>
 
-        <section>
+        <section id="gallery" class="card">
             <h3>Gallery</h3>
-            <img src="pictures/london-united-kingdom-october-18-600nw-2215690291.webp" 
-                 alt="Dwayne Johnson in a metallic purple suit smiling at the camera">
-            <img src="pictures/The_ROCK.jpg" 
-                 alt="Dwayne Johnson in a white t-shirt and sunglasses giving his classic eyebrow raise toward the camera">
-            <img src="pictures/dwayne-the-rock-johnson-looks-on-during-his-match-against-news-photo-142809003-1553006862.avif" 
-                 alt="Dwayne Johnson standing on the top rope of the WWE ring with his arms spread open and a massive crowd behind him">
-        </section>
-    </main>
+            <!--Added a class to style the gallery-->
+            <div class="gallery">
+            <img src="pictures/london-united-kingdom-october-18-600nw-2215690291.webp" alt="Dwayne Johnson in a metallic purple suit smiling at the camera">
+            <img src="pictures/The_ROCK.jpg" alt="Dwayne Johnson in a white t-shirt and sunglasses giving his classic eyebrow raise toward the camera">
+            <img src="pictures/dwayne-the-rock-johnson-looks-on-during-his-match-against-news-photo-142809003-1553006862.avif" alt="Dwayne Johnson standing on the top rope of the WWE ring with his arms spread open and a massive crowd behind him">
+            </div>
 
-    <footer>
+            <!--optional "back to top" link-->
+            <p><a href="#top">Back to top</a></p>
+     </section>
+     </main>
+
+     <footer id="author" class="card">
         <p>Author Info: Fred Cohen is a student at the University of Miami currently enrolled in a Web Lab
         class. They are interested in pop culture, media, and influential public figures.</p>
-    </footer>
+     </footer>
+     
 </body>
 </html>
 
